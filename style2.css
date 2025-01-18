@@ -67,6 +67,7 @@ b{
     font-weight: bolder;
     justify-content: center;
     align-items: center;
+    margin-top: 0 !important;
 }
 
 nav ul li:hover {
@@ -145,7 +146,7 @@ button:hover {
 
 footer{
     background-color: grey;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,5 +156,10 @@ footer{
 p{
     margin-top: 30px !important;
     color: white;
-    margin-bottom: 30px !important;
+    margin-bottom: 30px ;
+}
+
+.contact-form-section p{
+    color: black;
+    margin-top: 30px ;
 }

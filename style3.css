@@ -64,6 +64,7 @@ nav ul li a {
     font-weight: bolder;
     justify-content: center;
     align-items: center;
+    margin-top: 0 !important; 
 }
 
 nav ul li:hover {
@@ -209,4 +210,8 @@ nav ul li:hover {
 #text_before_team_form{
     color: white;
     margin-left: 50px;
+}
+.contact-form-section p{
+  color: black;
+  margin-top: 30px ;
 }
